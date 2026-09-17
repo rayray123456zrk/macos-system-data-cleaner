@@ -1,0 +1,4 @@
+interface:
+  display_name: "macOS System Data Cleaner"
+  short_description: "Diagnose and safely clean macOS System Data"
+  default_prompt: "Use $macos-system-data-cleaner to audit my Mac System Data and propose safe cleanup targets."
