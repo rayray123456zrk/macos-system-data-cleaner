@@ -7,6 +7,8 @@ description: Diagnose unexpectedly large macOS System Data, identify caches and 
 
 Audit first, classify findings, and clean only the targets the user authorizes. Treat macOS Storage's “System Data” as an opaque category that may include application support files, containers, caches, models, temporary files, local snapshots, logs, and update remnants—not merely operating-system files.
 
+When this repository's **MacSpace Guard** app is installed, prefer it for continuous monitoring, history, interactive selection, and recoverable cleanup. Use the bundled shell audit for a one-time read-only diagnosis or when the app is unavailable.
+
 ## Operating invariants
 
 - Start with read-only inspection. Never infer permission to delete from a request to diagnose, inspect, or explain.
